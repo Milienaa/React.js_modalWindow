@@ -1,0 +1,24 @@
+.gallery {
+    width: 90%;
+    max-width: 1200px;
+    margin: 10px auto;
+
+    display: grid;
+    grid: {
+        template: {
+            columns: repeat(2, 1fr);
+            rows: repeat(3, 1fr);
+        }
+        gap: 15px;
+    }
+
+    @media screen and (min-width: 768px) {
+        grid: {
+                template: {
+                    columns: repeat(3, 1fr);
+                    rows: repeat(3, 1fr);
+                }
+            }
+    }
+    border: 1px dashed #000;
+}

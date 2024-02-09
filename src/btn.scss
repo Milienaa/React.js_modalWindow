@@ -1,0 +1,12 @@
+.modal {
+    span {
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+            color: #fff;
+            font-size: 2em;
+            transform: rotate(45deg);
+            cursor: pointer;
+        }
+}

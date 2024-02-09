@@ -1,0 +1,16 @@
+.gallery__item {
+    img {
+        display: block;
+        width: 100%;
+        filter: grayscale(0.7);
+        cursor: pointer;
+        transition: {
+            property: filter;
+            duration: 0.8s;
+        };
+
+        &:hover {
+            filter: grayscale(0);
+        }
+    }
+}
